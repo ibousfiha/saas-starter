@@ -1,0 +1,24 @@
+# Enforce LF line endings for shell scripts — required for Docker/Linux compat
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+
+# Enforce LF for Docker files
+Dockerfile text eol=lf
+docker-compose*.yml text eol=lf
+
+# Auto-detect for source code
+*.ts text diff=typescript
+*.tsx text diff=typescript
+*.js text diff=javascript
+*.json text diff=json
+*.md text diff=markdown
+*.yml text diff=yaml
+*.yaml text diff=yaml
+
+# Binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.gz binary

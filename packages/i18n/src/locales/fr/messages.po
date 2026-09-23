@@ -1,0 +1,1001 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-23 20:39+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fr\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. placeholder {0}: project.name
+msgid "\"{0}\" will be permanently deleted. This cannot be undone."
+msgstr "« {0} » sera définitivement supprimé. Cette action est irréversible."
+
+msgid "{browser} on {os}"
+msgstr "{browser} sur {os}"
+
+msgid "{count, plural, one {# member} other {# members}}"
+msgstr "{count, plural, one {# membre} other {# membres}}"
+
+msgid "{name} was removed."
+msgstr "{name} a été supprimé(e)."
+
+msgid "{name} will lose access to this organization and its projects right away."
+msgstr "{name} perdra immédiatement l'accès à cette organisation et à ses projets."
+
+msgid "<0>{inviterName}</0> invited <1>{email}</1> to collaborate in {organizationName}."
+msgstr "<0>{inviterName}</0> a invité <1>{email}</1> à collaborer dans {organizationName}."
+
+msgid "A unique identifier. Lowercase letters, numbers and dashes."
+msgstr "Un identifiant unique. Lettres minuscules, chiffres et tirets."
+
+msgid "Accept invitation"
+msgstr "Accepter l'invitation"
+
+msgid "Account"
+msgstr "Compte"
+
+msgid "Account settings"
+msgstr "Paramètres du compte"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Active sessions"
+msgstr "Sessions actives"
+
+msgid "Admin"
+msgstr "Administrateur"
+
+msgid "Admins can manage members and invitations. Members can work on projects."
+msgstr "Les administrateurs peuvent gérer les membres et les invitations. Les membres peuvent travailler sur les projets."
+
+msgid "All projects, members and pending invitations will be removed. This cannot be undone."
+msgstr "Tous les projets, membres et invitations en attente seront supprimés. Cette action est irréversible."
+
+msgid "Already have an account? <0>Sign in</0>"
+msgstr "Vous avez déjà un compte ? <0>Se connecter</0>"
+
+msgid "An account with this email already exists."
+msgstr "Un compte existe déjà avec cette adresse e-mail."
+
+msgid "Appearance"
+msgstr "Apparence"
+
+msgid "At least 8 characters."
+msgstr "Au moins 8 caractères."
+
+msgid "Authentication & 2FA"
+msgstr "Authentification et 2FA"
+
+msgid "Authentication code"
+msgstr "Code d'authentification"
+
+msgid "Authentication, organizations, a type-safe API and a polished interface, wired together so you can start on the features that matter."
+msgstr "Authentification, organisations, une API type-safe et une interface soignée, déjà connectées entre elles pour que vous puissiez vous concentrer sur les fonctionnalités qui comptent."
+
+msgid "Back to home"
+msgstr "Retour à l'accueil"
+
+msgid "Back to sign in"
+msgstr "Retour à la connexion"
+
+msgid "Backup code"
+msgstr "Code de secours"
+
+msgid "Backup codes"
+msgstr "Codes de secours"
+
+msgid "Breadcrumb"
+msgstr "Fil d'Ariane"
+
+msgid "By creating an account you agree to use the service lawfully and to keep your credentials secure."
+msgstr "En créant un compte, vous acceptez d'utiliser le service dans le respect de la loi et de protéger vos identifiants."
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Cancel invitation for {email}"
+msgstr "Annuler l'invitation pour {email}"
+
+msgid "Change language"
+msgstr "Changer de langue"
+
+msgid "Change password"
+msgstr "Changer le mot de passe"
+
+msgid "Change theme"
+msgstr "Changer de thème"
+
+msgid "Changes and liability"
+msgstr "Modifications et responsabilité"
+
+msgid "Check your inbox"
+msgstr "Consultez votre boîte de réception"
+
+msgid "Choose a new password for your account."
+msgstr "Choisissez un nouveau mot de passe pour votre compte."
+
+msgid "Choose a theme, or follow your operating system setting."
+msgstr "Choisissez un thème ou suivez le réglage de votre système d'exploitation."
+
+msgid "Close"
+msgstr "Fermer"
+
+msgid "Command menu"
+msgstr "Menu de commandes"
+
+msgid "Confirm new password"
+msgstr "Confirmer le nouveau mot de passe"
+
+msgid "Confirm password"
+msgstr "Confirmer le mot de passe"
+
+msgid "Confirm your password to start the setup."
+msgstr "Confirmez votre mot de passe pour démarrer la configuration."
+
+msgid "Confirm your password. You will only need your password to sign in."
+msgstr "Confirmez votre mot de passe. Vous n'en aurez besoin que pour vous connecter."
+
+msgid "Confirm your password. Your current backup codes will stop working."
+msgstr "Confirmez votre mot de passe. Vos codes de secours actuels cesseront de fonctionner."
+
+msgid "Continue"
+msgstr "Continuer"
+
+msgid "Copied"
+msgstr "Copié"
+
+msgid "Copy"
+msgstr "Copier"
+
+msgid "Create account"
+msgstr "Créer un compte"
+
+msgid "Create an account"
+msgstr "Créer un compte"
+
+msgid "Create an account, set up your organization and invite your team in minutes."
+msgstr "Créez un compte, configurez votre organisation et invitez votre équipe en quelques minutes."
+
+msgid "Create an organization to start. You can invite your team next."
+msgstr "Créez d'abord une organisation. Vous pourrez ensuite inviter votre équipe."
+
+msgid "Create and manage the projects in this organization."
+msgstr "Créez et gérez les projets de cette organisation."
+
+msgid "Create organization"
+msgstr "Créer une organisation"
+
+msgid "Create project"
+msgstr "Créer un projet"
+
+msgid "Create your account"
+msgstr "Créez votre compte"
+
+msgid "Create your first project to get started."
+msgstr "Créez votre premier projet pour commencer."
+
+msgid "Created"
+msgstr "Créé le"
+
+msgid "Current password"
+msgstr "Mot de passe actuel"
+
+msgid "Dark"
+msgstr "Sombre"
+
+msgid "Dark mode & theming"
+msgstr "Mode sombre et thèmes"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Decline"
+msgstr "Refuser"
+
+#. placeholder {0}: project.name
+msgid "Delete {0}"
+msgstr "Supprimer {0}"
+
+msgid "Delete {name}?"
+msgstr "Supprimer {name} ?"
+
+msgid "Delete organization"
+msgstr "Supprimer l'organisation"
+
+msgid "Delete project"
+msgstr "Supprimer le projet"
+
+msgid "Delete this project?"
+msgstr "Supprimer ce projet ?"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Devices that are signed in to your account."
+msgstr "Appareils connectés à votre compte."
+
+msgid "Disable"
+msgstr "Désactiver"
+
+msgid "Disable two-factor authentication"
+msgstr "Désactiver l'authentification à deux facteurs"
+
+msgid "Disable two-factor authentication?"
+msgstr "Désactiver l'authentification à deux facteurs ?"
+
+msgid "Displays the mobile sidebar."
+msgstr "Affiche la barre latérale mobile."
+
+msgid "Don't have an account? <0>Sign up</0>"
+msgstr "Vous n'avez pas de compte ? <0>S'inscrire</0>"
+
+msgid "Done"
+msgstr "Terminé"
+
+msgid "Download"
+msgstr "Télécharger"
+
+msgid "Each code works once. Store them somewhere safe — you will not see them again."
+msgstr "Chaque code ne fonctionne qu'une seule fois. Conservez-les en lieu sûr — vous ne les reverrez plus."
+
+#. placeholder {0}: project.name
+msgid "Edit {0}"
+msgstr "Modifier {0}"
+
+msgid "Edit project"
+msgstr "Modifier le projet"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Email and password sign-in, verified emails, password resets and TOTP two-factor authentication, powered by Better Auth."
+msgstr "Connexion par e-mail et mot de passe, e-mails vérifiés, réinitialisation de mot de passe et authentification à deux facteurs TOTP, propulsées par Better Auth."
+
+msgid "Email verified"
+msgstr "E-mail vérifié"
+
+msgid "Enable two-factor authentication"
+msgstr "Activer l'authentification à deux facteurs"
+
+msgid "Enter a backup code."
+msgstr "Saisissez un code de secours."
+
+msgid "Enter a project name."
+msgstr "Saisissez un nom de projet."
+
+msgid "Enter a valid email address."
+msgstr "Saisissez une adresse e-mail valide."
+
+msgid "Enter one of the backup codes you saved."
+msgstr "Saisissez l'un des codes de secours que vous avez enregistrés."
+
+msgid "Enter the 6-digit code from your authenticator app."
+msgstr "Saisissez le code à 6 chiffres de votre application d'authentification."
+
+msgid "Enter the 6-digit code."
+msgstr "Saisissez le code à 6 chiffres."
+
+msgid "Enter your current password."
+msgstr "Saisissez votre mot de passe actuel."
+
+msgid "Enter your email and we will send you a reset link."
+msgstr "Saisissez votre adresse e-mail et nous vous enverrons un lien de réinitialisation."
+
+msgid "Enter your name."
+msgstr "Saisissez votre nom."
+
+msgid "Enter your password."
+msgstr "Saisissez votre mot de passe."
+
+msgid "Every device except this one will be signed out."
+msgstr "Tous les appareils, à l'exception de celui-ci, seront déconnectés."
+
+msgid "Everything a SaaS needs on day one"
+msgstr "Tout ce dont un SaaS a besoin dès le premier jour"
+
+msgid "Everything you need to launch, already wired together."
+msgstr "Tout ce dont vous avez besoin pour vous lancer, déjà connecté."
+
+msgid "Expires"
+msgstr "Expire le"
+
+msgid "For your security, sign in again to continue."
+msgstr "Pour votre sécurité, reconnectez-vous pour continuer."
+
+msgid "Forgot password"
+msgstr "Mot de passe oublié"
+
+msgid "Forgot password?"
+msgstr "Mot de passe oublié ?"
+
+msgid "Forgot your password?"
+msgstr "Mot de passe oublié ?"
+
+msgid "General"
+msgstr "Général"
+
+msgid "Generate codes"
+msgstr "Générer des codes"
+
+msgid "Generate from name"
+msgstr "Générer à partir du nom"
+
+msgid "Get started"
+msgstr "Commencer"
+
+msgid "Get started in less than a minute."
+msgstr "Prêt en moins d'une minute."
+
+msgid "Go to dashboard"
+msgstr "Aller au dashboard"
+
+msgid "Go to sign in"
+msgstr "Aller à la connexion"
+
+#. placeholder {0}: organization?.name
+msgid "Here is what is happening in {0}."
+msgstr "Voici ce qui se passe dans {0}."
+
+msgid "How we use it"
+msgstr "Comment nous l'utilisons"
+
+msgid "If an account exists for that address, we sent a link to reset your password."
+msgstr "Si un compte existe pour cette adresse, nous avons envoyé un lien de réinitialisation du mot de passe."
+
+msgid "Internationalization"
+msgstr "Internationalisation"
+
+msgid "Invalid email or password."
+msgstr "E-mail ou mot de passe invalide."
+
+msgid "Invitation canceled."
+msgstr "Invitation annulée."
+
+#. placeholder {0}: value.email
+msgid "Invitation sent to {0}."
+msgstr "Invitation envoyée à {0}."
+
+msgid "Invitation unavailable"
+msgstr "Invitation non disponible"
+
+msgid "Invite member"
+msgstr "Inviter un membre"
+
+msgid "Invite teammates by email to collaborate with them."
+msgstr "Invitez des membres de l'équipe par e-mail pour collaborer avec eux."
+
+msgid "Join {organizationName}"
+msgstr "Rejoindre {organizationName}"
+
+msgid "Joined"
+msgstr "A rejoint"
+
+msgid "Jump straight into common tasks."
+msgstr "Accédez directement aux tâches courantes."
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "Last active {lastActive}"
+msgstr "Dernière activité {lastActive}"
+
+msgid "Leave"
+msgstr "Quitter"
+
+msgid "Leave organization"
+msgstr "Quitter l'organisation"
+
+msgid "Leave this organization?"
+msgstr "Quitter cette organisation ?"
+
+msgid "Light"
+msgstr "Clair"
+
+msgid "Lingui with lazy-loaded catalogs. English, German and French included, ready for more."
+msgstr "Lingui avec chargement différé des catalogues. Anglais, allemand et français inclus, prêt pour d'autres langues."
+
+msgid "Link expired"
+msgstr "Lien expiré"
+
+msgid "Loading"
+msgstr "Chargement"
+
+msgid "Looking forward to working with you!"
+msgstr "Nous sommes impatients de travailler avec vous !"
+
+msgid "Manage who has access to this organization."
+msgstr "Gérez qui a accès à cette organisation."
+
+msgid "Manage your account, security and organization."
+msgstr "Gérez votre compte, votre sécurité et votre organisation."
+
+msgid "Member"
+msgstr "Membre"
+
+msgid "Members"
+msgstr "Membres"
+
+msgid "More"
+msgstr "Plus"
+
+msgid "Multi-tenant workspaces with owner, admin and member roles, invitations and permission checks on every request."
+msgstr "Espaces de travail multi-tenant avec les rôles propriétaire, administrateur et membre, invitations et vérifications des permissions à chaque requête."
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "New backup codes"
+msgstr "Nouveaux codes de secours"
+
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+msgid "New project"
+msgstr "Nouveau projet"
+
+msgid "No pending invitations"
+msgstr "Aucune invitation en attente"
+
+msgid "No projects yet"
+msgstr "Aucun projet pour l'instant"
+
+msgid "No results found."
+msgstr "Aucun résultat trouvé."
+
+msgid "Not verified"
+msgstr "Non vérifié"
+
+msgid "Off"
+msgstr "Désactivé"
+
+msgid "On"
+msgstr "Activé"
+
+msgid "One Docker image, database migrations, unit and end-to-end tests, and git hooks as the quality gate."
+msgstr "Une image Docker, des migrations de base de données, des tests unitaires et end-to-end, et des hooks Git comme garde-fou qualité."
+
+msgid "Only owners and admins can change these settings."
+msgstr "Seuls les propriétaires et les administrateurs peuvent modifier ces paramètres."
+
+msgid "Open in authenticator app"
+msgstr "Ouvrir dans l'application d'authentification"
+
+msgid "Open-source SaaS starter"
+msgstr "Starter SaaS open source"
+
+msgid "Opinionated defaults with one obvious way to do each thing."
+msgstr "Des choix par défaut assumés, avec une façon évidente de faire chaque chose."
+
+msgid "Optional. Up to 500 characters."
+msgstr "Facultatif. 500 caractères maximum."
+
+msgid "Organization"
+msgstr "Organisation"
+
+msgid "Organization name"
+msgstr "Nom de l'organisation"
+
+msgid "Organization updated."
+msgstr "Organisation mise à jour."
+
+msgid "Organizations"
+msgstr "Organisations"
+
+msgid "Organizations & roles"
+msgstr "Organisations et rôles"
+
+msgid "Organizations keep projects and members separate. You will switch to the new one right away."
+msgstr "Les organisations séparent les projets et les membres. Vous basculerez immédiatement vers la nouvelle."
+
+msgid "Organizations, roles and invitations"
+msgstr "Organisations, rôles et invitations"
+
+msgid "oRPC procedures shared end to end with TanStack Query, so the client always matches the server."
+msgstr "Procédures oRPC partagées de bout en bout avec TanStack Query, pour que le client corresponde toujours au serveur."
+
+msgid "Owner"
+msgstr "Propriétaire"
+
+msgid "Page not found"
+msgstr "Page non trouvée"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Password changed."
+msgstr "Mot de passe modifié."
+
+msgid "Password updated. Sign in with your new password."
+msgstr "Mot de passe mis à jour. Connectez-vous avec votre nouveau mot de passe."
+
+msgid "Passwords do not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+msgid "Pending invitations"
+msgstr "Invitations en attente"
+
+msgid "People who have been invited but have not joined yet."
+msgstr "Personnes invitées qui n'ont pas encore rejoint."
+
+msgid "Permanently delete this organization, its projects, members and invitations. This cannot be undone."
+msgstr "Supprimez définitivement cette organisation, ses projets, membres et invitations. Cette action est irréversible."
+
+msgid "Personal message (optional)"
+msgstr "Message personnel (facultatif)"
+
+msgid "Please verify your email address. We sent you a new link."
+msgstr "Veuillez vérifier votre adresse e-mail. Nous vous avons envoyé un nouveau lien."
+
+msgid "Preferences"
+msgstr "Préférences"
+
+msgid "Privacy"
+msgstr "Confidentialité"
+
+msgid "Privacy policy"
+msgstr "Politique de confidentialité"
+
+msgid "Production ready"
+msgstr "Prêt pour la production"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Profile updated."
+msgstr "Profil mis à jour."
+
+msgid "Project created."
+msgstr "Projet créé."
+
+msgid "Project deleted."
+msgstr "Projet supprimé."
+
+msgid "Project updated."
+msgstr "Projet mis à jour."
+
+msgid "Projects"
+msgstr "Projets"
+
+msgid "Projects are shared with everyone in this organization."
+msgstr "Les projets sont partagés avec tous les membres de cette organisation."
+
+msgid "Projects you create will show up here."
+msgstr "Les projets que vous créez s'afficheront ici."
+
+msgid "Quick actions"
+msgstr "Actions rapides"
+
+msgid "Recent projects"
+msgstr "Projets récents"
+
+msgid "Regenerate backup codes"
+msgstr "Régénérer les codes de secours"
+
+msgid "Remembered it? <0>Sign in</0>"
+msgstr "Vous vous en souvenez ? <0>Se connecter</0>"
+
+msgid "Remove"
+msgstr "Supprimer"
+
+msgid "Remove {name}"
+msgstr "Supprimer {name}"
+
+msgid "Remove {name}?"
+msgstr "Supprimer {name} ?"
+
+msgid "Request a new link"
+msgstr "Demander un nouveau lien"
+
+msgid "Require a code from an authenticator app when you sign in."
+msgstr "Exiger un code d'une application d'authentification lors de la connexion."
+
+msgid "Resend email"
+msgstr "Renvoyer l'e-mail"
+
+msgid "Reset password"
+msgstr "Réinitialiser le mot de passe"
+
+msgid "Revoke"
+msgstr "Révoquer"
+
+msgid "Role"
+msgstr "Rôle"
+
+msgid "Role for {name}"
+msgstr "Rôle pour {name}"
+
+msgid "Role updated."
+msgstr "Rôle mis à jour."
+
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+msgid "Save your backup codes"
+msgstr "Enregistrez vos codes de secours"
+
+msgid "Scan the QR code with your authenticator app or enter the key manually, then enter the code it shows."
+msgstr "Scannez le QR code avec votre application d'authentification ou saisissez la clé manuellement, puis saisissez le code affiché."
+
+msgid "Search"
+msgstr "Rechercher"
+
+msgid "Search for a page or action"
+msgstr "Rechercher une page ou une action"
+
+msgid "Search…"
+msgstr "Rechercher…"
+
+msgid "Secure authentication with two-factor support"
+msgstr "Authentification sécurisée avec prise en charge de la double authentification"
+
+msgid "Security"
+msgstr "Sécurité"
+
+msgid "Select an organization first."
+msgstr "Sélectionnez d'abord une organisation."
+
+msgid "Send invitation"
+msgstr "Envoyer l'invitation"
+
+msgid "Send reset link"
+msgstr "Envoyer le lien de réinitialisation"
+
+msgid "Session revoked."
+msgstr "Session révoquée."
+
+msgid "Set a new password"
+msgstr "Définir un nouveau mot de passe"
+
+msgid "Set up your workspace"
+msgstr "Configurez votre espace de travail"
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "shadcn/ui components on Tailwind CSS v4 with light and dark themes that follow the system."
+msgstr "Composants shadcn/ui sur Tailwind CSS v4 avec thèmes clair et sombre qui suivent le système."
+
+msgid "Ship your product, not the boilerplate"
+msgstr "Livrez votre produit, pas le code répétitif"
+
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+msgid "Sign in"
+msgstr "Se connecter"
+
+msgid "Sign in to accept"
+msgstr "Se connecter pour accepter"
+
+msgid "Sign in to your account to continue."
+msgstr "Connectez-vous à votre compte pour continuer."
+
+msgid "Sign in with another account"
+msgstr "Se connecter avec un autre compte"
+
+msgid "Sign out"
+msgstr "Se déconnecter"
+
+msgid "Sign out of all other devices"
+msgstr "Se déconnecter de tous les autres appareils"
+
+msgid "Sign out of all other sessions?"
+msgstr "Se déconnecter de toutes les autres sessions ?"
+
+msgid "Sign out others"
+msgstr "Déconnecter les autres"
+
+msgid "Sign up"
+msgstr "S'inscrire"
+
+msgid "Signed out of all other sessions."
+msgstr "Déconnecté de toutes les autres sessions."
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Something went wrong"
+msgstr "Quelque chose s'est mal passé"
+
+msgid "Something went wrong. Please try again."
+msgstr "Une erreur s'est produite. Veuillez réessayer."
+
+msgid "Start building today"
+msgstr "Commencez à développer dès aujourd'hui"
+
+msgid "System"
+msgstr "Système"
+
+msgid "Team"
+msgstr "Équipe"
+
+msgid "Template text. Replace it with your own legal copy before going to production."
+msgstr "Texte modèle. Remplacez-le par votre propre texte juridique avant la mise en production."
+
+msgid "Terms"
+msgstr "Conditions"
+
+msgid "Terms of service"
+msgstr "Conditions d’utilisation"
+
+msgid "That code is not valid. Try again."
+msgstr "Ce code n'est pas valide. Réessayez."
+
+msgid "The language used throughout the app."
+msgstr "La langue utilisée dans toute l'application."
+
+msgid "The latest projects in this organization."
+msgstr "Les projets les plus récents de cette organisation."
+
+msgid "The page you are looking for does not exist or was moved."
+msgstr "La page que vous recherchez n'existe pas ou a été déplacée."
+
+msgid "The service is provided as is. We may update these terms and will notify you of material changes."
+msgstr "Le service est fourni tel quel. Nous pouvons mettre à jour ces conditions et vous informerons de tout changement important."
+
+msgid "Theme"
+msgstr "Thème"
+
+msgid "This device"
+msgstr "Cet appareil"
+
+msgid "This invitation is invalid or has expired."
+msgstr "Cette invitation n'est plus valide ou a expiré."
+
+msgid "This invitation is invalid, has expired or was already used. Ask the person who invited you for a new one."
+msgstr "Cette invitation n'est plus valide, a expiré ou a déjà été utilisée. Demandez-en une nouvelle à la personne qui vous a invité(e)."
+
+msgid "This invitation was sent to a different email address."
+msgstr "Cette invitation a été envoyée à une autre adresse e-mail."
+
+msgid "This is how others see you in your organizations."
+msgstr "Voici comment les autres vous voient dans vos organisations."
+
+msgid "This item no longer exists."
+msgstr "Cet élément n'existe plus."
+
+msgid "This link is invalid or has expired."
+msgstr "Ce lien n'est plus valide ou a expiré."
+
+msgid "This person has already been invited."
+msgstr "Cette personne a déjà été invitée."
+
+msgid "This person is already a member."
+msgstr "Cette personne est déjà membre."
+
+msgid "This reset link is invalid or has expired. Request a new one."
+msgstr "Ce lien de réinitialisation n'est plus valide ou a expiré. Demandez-en un nouveau."
+
+msgid "This slug is already taken."
+msgstr "Ce slug est déjà utilisé."
+
+msgid "This URL is already taken."
+msgstr "Cette URL est déjà utilisée."
+
+msgid "This verification link is invalid or has expired. Sign in to get a new one."
+msgstr "Ce lien de vérification n'est plus valide ou a expiré. Connectez-vous pour en obtenir un nouveau."
+
+msgid "Toggle sidebar"
+msgstr "Afficher/masquer la barre latérale"
+
+msgid "Too many attempts. Please wait a moment and try again."
+msgstr "Trop de tentatives. Veuillez patienter un instant et réessayer."
+
+msgid "Transfer ownership before leaving this organization."
+msgstr "Transférez la propriété avant de quitter cette organisation."
+
+msgid "Trust this device for 30 days"
+msgstr "Faire confiance à cet appareil pendant 30 jours"
+
+msgid "Try again"
+msgstr "Réessayer"
+
+msgid "Two-factor authentication"
+msgstr "Authentification à deux facteurs"
+
+msgid "Two-factor authentication is off."
+msgstr "L'authentification à deux facteurs est désactivée."
+
+msgid "Two-factor authentication is on."
+msgstr "L'authentification à deux facteurs est activée."
+
+msgid "Type <0>{name}</0> to confirm"
+msgstr "Saisissez <0>{name}</0> pour confirmer"
+
+msgid "Type a command or search…"
+msgstr "Saisissez une commande ou recherchez…"
+
+msgid "Type-safe API"
+msgstr "API type-safe"
+
+msgid "Type-safe API from database to UI"
+msgstr "API type-safe de la base de données à l'interface"
+
+msgid "Unknown device"
+msgstr "Appareil inconnu"
+
+msgid "Update password"
+msgstr "Mettre à jour le mot de passe"
+
+msgid "Update the name and description of this project."
+msgstr "Mettez à jour le nom et la description de ce projet."
+
+msgid "Update your organization's name and slug."
+msgstr "Mettez à jour le nom et le slug de votre organisation."
+
+msgid "Use <0>{email}</0> so we can match your invitation."
+msgstr "Utilisez <0>{email}</0> afin que nous puissions faire correspondre votre invitation."
+
+msgid "Use a backup code instead"
+msgstr "Utiliser un code de secours à la place"
+
+msgid "Use a long password you do not use anywhere else."
+msgstr "Utilisez un mot de passe long que vous n'utilisez nulle part ailleurs."
+
+msgid "Use at least 2 characters."
+msgstr "Utilisez au moins 2 caractères."
+
+msgid "Use at least 8 characters."
+msgstr "Utilisez au moins 8 caractères."
+
+msgid "Use at most 100 characters."
+msgstr "Utilisez au maximum 100 caractères."
+
+msgid "Use at most 128 characters."
+msgstr "Utilisez au maximum 128 caractères."
+
+msgid "Use at most 48 characters."
+msgstr "Utilisez au maximum 48 caractères."
+
+msgid "Use at most 500 characters."
+msgstr "Utilisez au maximum 500 caractères."
+
+msgid "Use at most 64 characters."
+msgstr "Utilisez au maximum 64 caractères."
+
+msgid "Use lowercase letters, numbers and dashes."
+msgstr "Utilisez des lettres minuscules, des chiffres et des tirets."
+
+msgid "Use your authenticator app"
+msgstr "Utilisez votre application d'authentification"
+
+msgid "Using the service"
+msgstr "Utilisation du service"
+
+msgid "Verification code"
+msgstr "Code de vérification"
+
+msgid "Verification email sent."
+msgstr "E-mail de vérification envoyé."
+
+msgid "Verification failed"
+msgstr "Échec de la vérification"
+
+msgid "Verified"
+msgstr "Vérifié"
+
+msgid "Verify"
+msgstr "Vérifier"
+
+msgid "Verify and enable"
+msgstr "Vérifier et activer"
+
+msgid "Verify email"
+msgstr "Vérifier l'e-mail"
+
+msgid "Verify your email address before responding to this invitation."
+msgstr "Vérifiez votre adresse e-mail avant de répondre à cette invitation."
+
+msgid "View"
+msgstr "Afficher"
+
+msgid "View all"
+msgstr "Tout afficher"
+
+msgid "We couldn't find an account with these details."
+msgstr "Nous n'avons trouvé aucun compte correspondant à ces informations."
+
+msgid "We sent a verification link to <0>{email}</0>. Open it to activate your account."
+msgstr "Nous avons envoyé un lien de vérification à <0>{email}</0>. Ouvrez-le pour activer votre compte."
+
+msgid "We store the account details you provide (name, email address and password hash) and the content you create in your organizations."
+msgstr "Nous stockons les informations de compte que vous fournissez (nom, adresse e-mail et hash du mot de passe) ainsi que le contenu que vous créez dans vos organisations."
+
+msgid "We will email them a link to join this organization. The link expires after 48 hours."
+msgstr "Nous leur enverrons par e-mail un lien pour rejoindre cette organisation. Le lien expire après 48 heures."
+
+msgid "Website redesign"
+msgstr "Refonte du site web"
+
+msgid "Welcome back"
+msgstr "Content de vous revoir"
+
+msgid "Welcome back, {firstName}"
+msgstr "Content de vous revoir, {firstName}"
+
+msgid "What is this project about?"
+msgstr "De quoi parle ce projet ?"
+
+msgid "What we collect"
+msgstr "Ce que nous collectons"
+
+msgid "Workspace"
+msgstr "Espace de travail"
+
+msgid "You"
+msgstr "Vous"
+
+#. placeholder {0}: session.user.email
+msgid "You are signed in as <0>{0}</0>. Sign in with <1>{email}</1> to accept this invitation."
+msgstr "Vous êtes connecté(e) en tant que <0>{0}</0>. Connectez-vous avec <1>{email}</1> pour accepter cette invitation."
+
+msgid "You can change this later."
+msgstr "Vous pourrez le modifier plus tard."
+
+msgid "You can delete your account at any time. Contact us to request a copy of your data."
+msgstr "Vous pouvez supprimer votre compte à tout moment. Contactez-nous pour demander une copie de vos données."
+
+msgid "You don't have permission to do this."
+msgstr "Vous n'êtes pas autorisé(e) à effectuer cette action."
+
+msgid "You have been invited to join"
+msgstr "Vous avez été invité(e) à rejoindre"
+
+msgid "You have reached the limit for this plan."
+msgstr "Vous avez atteint la limite de cette offre."
+
+msgid "You own the content you create. You grant us the rights needed to store and display it to members of your organization."
+msgstr "Vous êtes propriétaire du contenu que vous créez. Vous nous accordez les droits nécessaires pour le stocker et l'afficher aux membres de votre organisation."
+
+msgid "You will lose access to its projects until someone invites you again."
+msgstr "Vous perdrez l'accès à ses projets jusqu'à ce que quelqu'un vous invite à nouveau."
+
+msgid "You will lose access to this organization and its projects right away."
+msgstr "Vous perdrez immédiatement l'accès à cette organisation et à ses projets."
+
+msgid "Your content"
+msgstr "Votre contenu"
+
+msgid "Your data is used only to provide the service. We do not sell it or share it with third parties except the providers needed to run the service."
+msgstr "Vos données sont utilisées uniquement pour fournir le service. Nous ne les vendons pas et ne les partageons pas avec des tiers, à l'exception des prestataires nécessaires au fonctionnement du service."
+
+msgid "Your email address is already verified."
+msgstr "Votre adresse e-mail est déjà vérifiée."
+
+msgid "Your email address is confirmed. You are all set."
+msgstr "Votre adresse e-mail est confirmée. Vous êtes prêt(e)."
+
+msgid "Your email address is used to sign in."
+msgstr "Votre adresse e-mail est utilisée pour vous connecter."
+
+msgid "Your old codes no longer work. Store these somewhere safe."
+msgstr "Vos anciens codes ne fonctionnent plus. Conservez-les en lieu sûr."
+
+msgid "Your password is incorrect."
+msgstr "Votre mot de passe est incorrect."
+
+msgid "Your password is too long."
+msgstr "Votre mot de passe est trop long."
+
+msgid "Your password is too short."
+msgstr "Votre mot de passe est trop court."
+
+msgid "Your rights"
+msgstr "Vos droits"
+
+msgid "Your session has expired. Sign in again."
+msgstr "Votre session a expiré. Reconnectez-vous."
+
+msgid "Your verification session expired. Sign in again."
+msgstr "Votre session de vérification a expiré. Reconnectez-vous."

@@ -1,0 +1,26 @@
+{
+  "name": "@saas-starter/api",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@orpc/server": "catalog:",
+    "@saas-starter/auth": "workspace:*",
+    "@saas-starter/db": "workspace:*",
+    "drizzle-orm": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@saas-starter/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

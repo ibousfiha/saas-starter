@@ -1,0 +1,14 @@
+{
+  "extends": "@saas-starter/config/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": ["node", "vite/client", "vitest/globals"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@saas-starter/ui/*": ["../../packages/ui/src/*"],
+      "@saas-starter/i18n/*": ["../../packages/i18n/src/*"]
+    }
+  },
+  "include": ["src", "vite.config.ts", "vitest.config.ts"]
+}

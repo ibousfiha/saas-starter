@@ -1,0 +1,44 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+build
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env*.local
+
+# Editors & OS
+.vscode
+.idea
+.zed
+*.swp
+*~
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Turbo
+.turbo
+
+# Testing
+coverage
+
+# Playwright
+playwright-report/
+test-results/
+playwright/.cache/
+.playwright-cli/
+
+# Misc
+*.tgz
+.cache
+tmp
+
+# Tool caches
+.fallow/
+.evlog/

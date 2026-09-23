@@ -1,0 +1,1001 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-05-23 20:39+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. placeholder {0}: project.name
+msgid "\"{0}\" will be permanently deleted. This cannot be undone."
+msgstr "\"{0}\" will be permanently deleted. This cannot be undone."
+
+msgid "{browser} on {os}"
+msgstr "{browser} on {os}"
+
+msgid "{count, plural, one {# member} other {# members}}"
+msgstr "{count, plural, one {# member} other {# members}}"
+
+msgid "{name} was removed."
+msgstr "{name} was removed."
+
+msgid "{name} will lose access to this organization and its projects right away."
+msgstr "{name} will lose access to this organization and its projects right away."
+
+msgid "<0>{inviterName}</0> invited <1>{email}</1> to collaborate in {organizationName}."
+msgstr "<0>{inviterName}</0> invited <1>{email}</1> to collaborate in {organizationName}."
+
+msgid "A unique identifier. Lowercase letters, numbers and dashes."
+msgstr "A unique identifier. Lowercase letters, numbers and dashes."
+
+msgid "Accept invitation"
+msgstr "Accept invitation"
+
+msgid "Account"
+msgstr "Account"
+
+msgid "Account settings"
+msgstr "Account settings"
+
+msgid "Actions"
+msgstr "Actions"
+
+msgid "Active sessions"
+msgstr "Active sessions"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Admins can manage members and invitations. Members can work on projects."
+msgstr "Admins can manage members and invitations. Members can work on projects."
+
+msgid "All projects, members and pending invitations will be removed. This cannot be undone."
+msgstr "All projects, members and pending invitations will be removed. This cannot be undone."
+
+msgid "Already have an account? <0>Sign in</0>"
+msgstr "Already have an account? <0>Sign in</0>"
+
+msgid "An account with this email already exists."
+msgstr "An account with this email already exists."
+
+msgid "Appearance"
+msgstr "Appearance"
+
+msgid "At least 8 characters."
+msgstr "At least 8 characters."
+
+msgid "Authentication & 2FA"
+msgstr "Authentication & 2FA"
+
+msgid "Authentication code"
+msgstr "Authentication code"
+
+msgid "Authentication, organizations, a type-safe API and a polished interface, wired together so you can start on the features that matter."
+msgstr "Authentication, organizations, a type-safe API and a polished interface, wired together so you can start on the features that matter."
+
+msgid "Back to home"
+msgstr "Back to home"
+
+msgid "Back to sign in"
+msgstr "Back to sign in"
+
+msgid "Backup code"
+msgstr "Backup code"
+
+msgid "Backup codes"
+msgstr "Backup codes"
+
+msgid "Breadcrumb"
+msgstr "Breadcrumb"
+
+msgid "By creating an account you agree to use the service lawfully and to keep your credentials secure."
+msgstr "By creating an account you agree to use the service lawfully and to keep your credentials secure."
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Cancel invitation for {email}"
+msgstr "Cancel invitation for {email}"
+
+msgid "Change language"
+msgstr "Change language"
+
+msgid "Change password"
+msgstr "Change password"
+
+msgid "Change theme"
+msgstr "Change theme"
+
+msgid "Changes and liability"
+msgstr "Changes and liability"
+
+msgid "Check your inbox"
+msgstr "Check your inbox"
+
+msgid "Choose a new password for your account."
+msgstr "Choose a new password for your account."
+
+msgid "Choose a theme, or follow your operating system setting."
+msgstr "Choose a theme, or follow your operating system setting."
+
+msgid "Close"
+msgstr "Close"
+
+msgid "Command menu"
+msgstr "Command menu"
+
+msgid "Confirm new password"
+msgstr "Confirm new password"
+
+msgid "Confirm password"
+msgstr "Confirm password"
+
+msgid "Confirm your password to start the setup."
+msgstr "Confirm your password to start the setup."
+
+msgid "Confirm your password. You will only need your password to sign in."
+msgstr "Confirm your password. You will only need your password to sign in."
+
+msgid "Confirm your password. Your current backup codes will stop working."
+msgstr "Confirm your password. Your current backup codes will stop working."
+
+msgid "Continue"
+msgstr "Continue"
+
+msgid "Copied"
+msgstr "Copied"
+
+msgid "Copy"
+msgstr "Copy"
+
+msgid "Create account"
+msgstr "Create account"
+
+msgid "Create an account"
+msgstr "Create an account"
+
+msgid "Create an account, set up your organization and invite your team in minutes."
+msgstr "Create an account, set up your organization and invite your team in minutes."
+
+msgid "Create an organization to start. You can invite your team next."
+msgstr "Create an organization to start. You can invite your team next."
+
+msgid "Create and manage the projects in this organization."
+msgstr "Create and manage the projects in this organization."
+
+msgid "Create organization"
+msgstr "Create organization"
+
+msgid "Create project"
+msgstr "Create project"
+
+msgid "Create your account"
+msgstr "Create your account"
+
+msgid "Create your first project to get started."
+msgstr "Create your first project to get started."
+
+msgid "Created"
+msgstr "Created"
+
+msgid "Current password"
+msgstr "Current password"
+
+msgid "Dark"
+msgstr "Dark"
+
+msgid "Dark mode & theming"
+msgstr "Dark mode & theming"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Decline"
+msgstr "Decline"
+
+#. placeholder {0}: project.name
+msgid "Delete {0}"
+msgstr "Delete {0}"
+
+msgid "Delete {name}?"
+msgstr "Delete {name}?"
+
+msgid "Delete organization"
+msgstr "Delete organization"
+
+msgid "Delete project"
+msgstr "Delete project"
+
+msgid "Delete this project?"
+msgstr "Delete this project?"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Devices that are signed in to your account."
+msgstr "Devices that are signed in to your account."
+
+msgid "Disable"
+msgstr "Disable"
+
+msgid "Disable two-factor authentication"
+msgstr "Disable two-factor authentication"
+
+msgid "Disable two-factor authentication?"
+msgstr "Disable two-factor authentication?"
+
+msgid "Displays the mobile sidebar."
+msgstr "Displays the mobile sidebar."
+
+msgid "Don't have an account? <0>Sign up</0>"
+msgstr "Don't have an account? <0>Sign up</0>"
+
+msgid "Done"
+msgstr "Done"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Each code works once. Store them somewhere safe — you will not see them again."
+msgstr "Each code works once. Store them somewhere safe — you will not see them again."
+
+#. placeholder {0}: project.name
+msgid "Edit {0}"
+msgstr "Edit {0}"
+
+msgid "Edit project"
+msgstr "Edit project"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Email and password sign-in, verified emails, password resets and TOTP two-factor authentication, powered by Better Auth."
+msgstr "Email and password sign-in, verified emails, password resets and TOTP two-factor authentication, powered by Better Auth."
+
+msgid "Email verified"
+msgstr "Email verified"
+
+msgid "Enable two-factor authentication"
+msgstr "Enable two-factor authentication"
+
+msgid "Enter a backup code."
+msgstr "Enter a backup code."
+
+msgid "Enter a project name."
+msgstr "Enter a project name."
+
+msgid "Enter a valid email address."
+msgstr "Enter a valid email address."
+
+msgid "Enter one of the backup codes you saved."
+msgstr "Enter one of the backup codes you saved."
+
+msgid "Enter the 6-digit code from your authenticator app."
+msgstr "Enter the 6-digit code from your authenticator app."
+
+msgid "Enter the 6-digit code."
+msgstr "Enter the 6-digit code."
+
+msgid "Enter your current password."
+msgstr "Enter your current password."
+
+msgid "Enter your email and we will send you a reset link."
+msgstr "Enter your email and we will send you a reset link."
+
+msgid "Enter your name."
+msgstr "Enter your name."
+
+msgid "Enter your password."
+msgstr "Enter your password."
+
+msgid "Every device except this one will be signed out."
+msgstr "Every device except this one will be signed out."
+
+msgid "Everything a SaaS needs on day one"
+msgstr "Everything a SaaS needs on day one"
+
+msgid "Everything you need to launch, already wired together."
+msgstr "Everything you need to launch, already wired together."
+
+msgid "Expires"
+msgstr "Expires"
+
+msgid "For your security, sign in again to continue."
+msgstr "For your security, sign in again to continue."
+
+msgid "Forgot password"
+msgstr "Forgot password"
+
+msgid "Forgot password?"
+msgstr "Forgot password?"
+
+msgid "Forgot your password?"
+msgstr "Forgot your password?"
+
+msgid "General"
+msgstr "General"
+
+msgid "Generate codes"
+msgstr "Generate codes"
+
+msgid "Generate from name"
+msgstr "Generate from name"
+
+msgid "Get started"
+msgstr "Get started"
+
+msgid "Get started in less than a minute."
+msgstr "Get started in less than a minute."
+
+msgid "Go to dashboard"
+msgstr "Go to dashboard"
+
+msgid "Go to sign in"
+msgstr "Go to sign in"
+
+#. placeholder {0}: organization?.name
+msgid "Here is what is happening in {0}."
+msgstr "Here is what is happening in {0}."
+
+msgid "How we use it"
+msgstr "How we use it"
+
+msgid "If an account exists for that address, we sent a link to reset your password."
+msgstr "If an account exists for that address, we sent a link to reset your password."
+
+msgid "Internationalization"
+msgstr "Internationalization"
+
+msgid "Invalid email or password."
+msgstr "Invalid email or password."
+
+msgid "Invitation canceled."
+msgstr "Invitation canceled."
+
+#. placeholder {0}: value.email
+msgid "Invitation sent to {0}."
+msgstr "Invitation sent to {0}."
+
+msgid "Invitation unavailable"
+msgstr "Invitation unavailable"
+
+msgid "Invite member"
+msgstr "Invite member"
+
+msgid "Invite teammates by email to collaborate with them."
+msgstr "Invite teammates by email to collaborate with them."
+
+msgid "Join {organizationName}"
+msgstr "Join {organizationName}"
+
+msgid "Joined"
+msgstr "Joined"
+
+msgid "Jump straight into common tasks."
+msgstr "Jump straight into common tasks."
+
+msgid "Language"
+msgstr "Language"
+
+msgid "Last active {lastActive}"
+msgstr "Last active {lastActive}"
+
+msgid "Leave"
+msgstr "Leave"
+
+msgid "Leave organization"
+msgstr "Leave organization"
+
+msgid "Leave this organization?"
+msgstr "Leave this organization?"
+
+msgid "Light"
+msgstr "Light"
+
+msgid "Lingui with lazy-loaded catalogs. English, German and French included, ready for more."
+msgstr "Lingui with lazy-loaded catalogs. English, German and French included, ready for more."
+
+msgid "Link expired"
+msgstr "Link expired"
+
+msgid "Loading"
+msgstr "Loading"
+
+msgid "Looking forward to working with you!"
+msgstr "Looking forward to working with you!"
+
+msgid "Manage who has access to this organization."
+msgstr "Manage who has access to this organization."
+
+msgid "Manage your account, security and organization."
+msgstr "Manage your account, security and organization."
+
+msgid "Member"
+msgstr "Member"
+
+msgid "Members"
+msgstr "Members"
+
+msgid "More"
+msgstr "More"
+
+msgid "Multi-tenant workspaces with owner, admin and member roles, invitations and permission checks on every request."
+msgstr "Multi-tenant workspaces with owner, admin and member roles, invitations and permission checks on every request."
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Navigation"
+msgstr "Navigation"
+
+msgid "New backup codes"
+msgstr "New backup codes"
+
+msgid "New password"
+msgstr "New password"
+
+msgid "New project"
+msgstr "New project"
+
+msgid "No pending invitations"
+msgstr "No pending invitations"
+
+msgid "No projects yet"
+msgstr "No projects yet"
+
+msgid "No results found."
+msgstr "No results found."
+
+msgid "Not verified"
+msgstr "Not verified"
+
+msgid "Off"
+msgstr "Off"
+
+msgid "On"
+msgstr "On"
+
+msgid "One Docker image, database migrations, unit and end-to-end tests, and git hooks as the quality gate."
+msgstr "One Docker image, database migrations, unit and end-to-end tests, and git hooks as the quality gate."
+
+msgid "Only owners and admins can change these settings."
+msgstr "Only owners and admins can change these settings."
+
+msgid "Open in authenticator app"
+msgstr "Open in authenticator app"
+
+msgid "Open-source SaaS starter"
+msgstr "Open-source SaaS starter"
+
+msgid "Opinionated defaults with one obvious way to do each thing."
+msgstr "Opinionated defaults with one obvious way to do each thing."
+
+msgid "Optional. Up to 500 characters."
+msgstr "Optional. Up to 500 characters."
+
+msgid "Organization"
+msgstr "Organization"
+
+msgid "Organization name"
+msgstr "Organization name"
+
+msgid "Organization updated."
+msgstr "Organization updated."
+
+msgid "Organizations"
+msgstr "Organizations"
+
+msgid "Organizations & roles"
+msgstr "Organizations & roles"
+
+msgid "Organizations keep projects and members separate. You will switch to the new one right away."
+msgstr "Organizations keep projects and members separate. You will switch to the new one right away."
+
+msgid "Organizations, roles and invitations"
+msgstr "Organizations, roles and invitations"
+
+msgid "oRPC procedures shared end to end with TanStack Query, so the client always matches the server."
+msgstr "oRPC procedures shared end to end with TanStack Query, so the client always matches the server."
+
+msgid "Owner"
+msgstr "Owner"
+
+msgid "Page not found"
+msgstr "Page not found"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Password changed."
+msgstr "Password changed."
+
+msgid "Password updated. Sign in with your new password."
+msgstr "Password updated. Sign in with your new password."
+
+msgid "Passwords do not match."
+msgstr "Passwords do not match."
+
+msgid "Pending invitations"
+msgstr "Pending invitations"
+
+msgid "People who have been invited but have not joined yet."
+msgstr "People who have been invited but have not joined yet."
+
+msgid "Permanently delete this organization, its projects, members and invitations. This cannot be undone."
+msgstr "Permanently delete this organization, its projects, members and invitations. This cannot be undone."
+
+msgid "Personal message (optional)"
+msgstr "Personal message (optional)"
+
+msgid "Please verify your email address. We sent you a new link."
+msgstr "Please verify your email address. We sent you a new link."
+
+msgid "Preferences"
+msgstr "Preferences"
+
+msgid "Privacy"
+msgstr "Privacy"
+
+msgid "Privacy policy"
+msgstr "Privacy policy"
+
+msgid "Production ready"
+msgstr "Production ready"
+
+msgid "Profile"
+msgstr "Profile"
+
+msgid "Profile updated."
+msgstr "Profile updated."
+
+msgid "Project created."
+msgstr "Project created."
+
+msgid "Project deleted."
+msgstr "Project deleted."
+
+msgid "Project updated."
+msgstr "Project updated."
+
+msgid "Projects"
+msgstr "Projects"
+
+msgid "Projects are shared with everyone in this organization."
+msgstr "Projects are shared with everyone in this organization."
+
+msgid "Projects you create will show up here."
+msgstr "Projects you create will show up here."
+
+msgid "Quick actions"
+msgstr "Quick actions"
+
+msgid "Recent projects"
+msgstr "Recent projects"
+
+msgid "Regenerate backup codes"
+msgstr "Regenerate backup codes"
+
+msgid "Remembered it? <0>Sign in</0>"
+msgstr "Remembered it? <0>Sign in</0>"
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Remove {name}"
+msgstr "Remove {name}"
+
+msgid "Remove {name}?"
+msgstr "Remove {name}?"
+
+msgid "Request a new link"
+msgstr "Request a new link"
+
+msgid "Require a code from an authenticator app when you sign in."
+msgstr "Require a code from an authenticator app when you sign in."
+
+msgid "Resend email"
+msgstr "Resend email"
+
+msgid "Reset password"
+msgstr "Reset password"
+
+msgid "Revoke"
+msgstr "Revoke"
+
+msgid "Role"
+msgstr "Role"
+
+msgid "Role for {name}"
+msgstr "Role for {name}"
+
+msgid "Role updated."
+msgstr "Role updated."
+
+msgid "Save changes"
+msgstr "Save changes"
+
+msgid "Save your backup codes"
+msgstr "Save your backup codes"
+
+msgid "Scan the QR code with your authenticator app or enter the key manually, then enter the code it shows."
+msgstr "Scan the QR code with your authenticator app or enter the key manually, then enter the code it shows."
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Search for a page or action"
+msgstr "Search for a page or action"
+
+msgid "Search…"
+msgstr "Search…"
+
+msgid "Secure authentication with two-factor support"
+msgstr "Secure authentication with two-factor support"
+
+msgid "Security"
+msgstr "Security"
+
+msgid "Select an organization first."
+msgstr "Select an organization first."
+
+msgid "Send invitation"
+msgstr "Send invitation"
+
+msgid "Send reset link"
+msgstr "Send reset link"
+
+msgid "Session revoked."
+msgstr "Session revoked."
+
+msgid "Set a new password"
+msgstr "Set a new password"
+
+msgid "Set up your workspace"
+msgstr "Set up your workspace"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "shadcn/ui components on Tailwind CSS v4 with light and dark themes that follow the system."
+msgstr "shadcn/ui components on Tailwind CSS v4 with light and dark themes that follow the system."
+
+msgid "Ship your product, not the boilerplate"
+msgstr "Ship your product, not the boilerplate"
+
+msgid "Sidebar"
+msgstr "Sidebar"
+
+msgid "Sign in"
+msgstr "Sign in"
+
+msgid "Sign in to accept"
+msgstr "Sign in to accept"
+
+msgid "Sign in to your account to continue."
+msgstr "Sign in to your account to continue."
+
+msgid "Sign in with another account"
+msgstr "Sign in with another account"
+
+msgid "Sign out"
+msgstr "Sign out"
+
+msgid "Sign out of all other devices"
+msgstr "Sign out of all other devices"
+
+msgid "Sign out of all other sessions?"
+msgstr "Sign out of all other sessions?"
+
+msgid "Sign out others"
+msgstr "Sign out others"
+
+msgid "Sign up"
+msgstr "Sign up"
+
+msgid "Signed out of all other sessions."
+msgstr "Signed out of all other sessions."
+
+msgid "Slug"
+msgstr "Slug"
+
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+msgid "Something went wrong. Please try again."
+msgstr "Something went wrong. Please try again."
+
+msgid "Start building today"
+msgstr "Start building today"
+
+msgid "System"
+msgstr "System"
+
+msgid "Team"
+msgstr "Team"
+
+msgid "Template text. Replace it with your own legal copy before going to production."
+msgstr "Template text. Replace it with your own legal copy before going to production."
+
+msgid "Terms"
+msgstr "Terms"
+
+msgid "Terms of service"
+msgstr "Terms of service"
+
+msgid "That code is not valid. Try again."
+msgstr "That code is not valid. Try again."
+
+msgid "The language used throughout the app."
+msgstr "The language used throughout the app."
+
+msgid "The latest projects in this organization."
+msgstr "The latest projects in this organization."
+
+msgid "The page you are looking for does not exist or was moved."
+msgstr "The page you are looking for does not exist or was moved."
+
+msgid "The service is provided as is. We may update these terms and will notify you of material changes."
+msgstr "The service is provided as is. We may update these terms and will notify you of material changes."
+
+msgid "Theme"
+msgstr "Theme"
+
+msgid "This device"
+msgstr "This device"
+
+msgid "This invitation is invalid or has expired."
+msgstr "This invitation is invalid or has expired."
+
+msgid "This invitation is invalid, has expired or was already used. Ask the person who invited you for a new one."
+msgstr "This invitation is invalid, has expired or was already used. Ask the person who invited you for a new one."
+
+msgid "This invitation was sent to a different email address."
+msgstr "This invitation was sent to a different email address."
+
+msgid "This is how others see you in your organizations."
+msgstr "This is how others see you in your organizations."
+
+msgid "This item no longer exists."
+msgstr "This item no longer exists."
+
+msgid "This link is invalid or has expired."
+msgstr "This link is invalid or has expired."
+
+msgid "This person has already been invited."
+msgstr "This person has already been invited."
+
+msgid "This person is already a member."
+msgstr "This person is already a member."
+
+msgid "This reset link is invalid or has expired. Request a new one."
+msgstr "This reset link is invalid or has expired. Request a new one."
+
+msgid "This slug is already taken."
+msgstr "This slug is already taken."
+
+msgid "This URL is already taken."
+msgstr "This URL is already taken."
+
+msgid "This verification link is invalid or has expired. Sign in to get a new one."
+msgstr "This verification link is invalid or has expired. Sign in to get a new one."
+
+msgid "Toggle sidebar"
+msgstr "Toggle sidebar"
+
+msgid "Too many attempts. Please wait a moment and try again."
+msgstr "Too many attempts. Please wait a moment and try again."
+
+msgid "Transfer ownership before leaving this organization."
+msgstr "Transfer ownership before leaving this organization."
+
+msgid "Trust this device for 30 days"
+msgstr "Trust this device for 30 days"
+
+msgid "Try again"
+msgstr "Try again"
+
+msgid "Two-factor authentication"
+msgstr "Two-factor authentication"
+
+msgid "Two-factor authentication is off."
+msgstr "Two-factor authentication is off."
+
+msgid "Two-factor authentication is on."
+msgstr "Two-factor authentication is on."
+
+msgid "Type <0>{name}</0> to confirm"
+msgstr "Type <0>{name}</0> to confirm"
+
+msgid "Type a command or search…"
+msgstr "Type a command or search…"
+
+msgid "Type-safe API"
+msgstr "Type-safe API"
+
+msgid "Type-safe API from database to UI"
+msgstr "Type-safe API from database to UI"
+
+msgid "Unknown device"
+msgstr "Unknown device"
+
+msgid "Update password"
+msgstr "Update password"
+
+msgid "Update the name and description of this project."
+msgstr "Update the name and description of this project."
+
+msgid "Update your organization's name and slug."
+msgstr "Update your organization's name and slug."
+
+msgid "Use <0>{email}</0> so we can match your invitation."
+msgstr "Use <0>{email}</0> so we can match your invitation."
+
+msgid "Use a backup code instead"
+msgstr "Use a backup code instead"
+
+msgid "Use a long password you do not use anywhere else."
+msgstr "Use a long password you do not use anywhere else."
+
+msgid "Use at least 2 characters."
+msgstr "Use at least 2 characters."
+
+msgid "Use at least 8 characters."
+msgstr "Use at least 8 characters."
+
+msgid "Use at most 100 characters."
+msgstr "Use at most 100 characters."
+
+msgid "Use at most 128 characters."
+msgstr "Use at most 128 characters."
+
+msgid "Use at most 48 characters."
+msgstr "Use at most 48 characters."
+
+msgid "Use at most 500 characters."
+msgstr "Use at most 500 characters."
+
+msgid "Use at most 64 characters."
+msgstr "Use at most 64 characters."
+
+msgid "Use lowercase letters, numbers and dashes."
+msgstr "Use lowercase letters, numbers and dashes."
+
+msgid "Use your authenticator app"
+msgstr "Use your authenticator app"
+
+msgid "Using the service"
+msgstr "Using the service"
+
+msgid "Verification code"
+msgstr "Verification code"
+
+msgid "Verification email sent."
+msgstr "Verification email sent."
+
+msgid "Verification failed"
+msgstr "Verification failed"
+
+msgid "Verified"
+msgstr "Verified"
+
+msgid "Verify"
+msgstr "Verify"
+
+msgid "Verify and enable"
+msgstr "Verify and enable"
+
+msgid "Verify email"
+msgstr "Verify email"
+
+msgid "Verify your email address before responding to this invitation."
+msgstr "Verify your email address before responding to this invitation."
+
+msgid "View"
+msgstr "View"
+
+msgid "View all"
+msgstr "View all"
+
+msgid "We couldn't find an account with these details."
+msgstr "We couldn't find an account with these details."
+
+msgid "We sent a verification link to <0>{email}</0>. Open it to activate your account."
+msgstr "We sent a verification link to <0>{email}</0>. Open it to activate your account."
+
+msgid "We store the account details you provide (name, email address and password hash) and the content you create in your organizations."
+msgstr "We store the account details you provide (name, email address and password hash) and the content you create in your organizations."
+
+msgid "We will email them a link to join this organization. The link expires after 48 hours."
+msgstr "We will email them a link to join this organization. The link expires after 48 hours."
+
+msgid "Website redesign"
+msgstr "Website redesign"
+
+msgid "Welcome back"
+msgstr "Welcome back"
+
+msgid "Welcome back, {firstName}"
+msgstr "Welcome back, {firstName}"
+
+msgid "What is this project about?"
+msgstr "What is this project about?"
+
+msgid "What we collect"
+msgstr "What we collect"
+
+msgid "Workspace"
+msgstr "Workspace"
+
+msgid "You"
+msgstr "You"
+
+#. placeholder {0}: session.user.email
+msgid "You are signed in as <0>{0}</0>. Sign in with <1>{email}</1> to accept this invitation."
+msgstr "You are signed in as <0>{0}</0>. Sign in with <1>{email}</1> to accept this invitation."
+
+msgid "You can change this later."
+msgstr "You can change this later."
+
+msgid "You can delete your account at any time. Contact us to request a copy of your data."
+msgstr "You can delete your account at any time. Contact us to request a copy of your data."
+
+msgid "You don't have permission to do this."
+msgstr "You don't have permission to do this."
+
+msgid "You have been invited to join"
+msgstr "You have been invited to join"
+
+msgid "You have reached the limit for this plan."
+msgstr "You have reached the limit for this plan."
+
+msgid "You own the content you create. You grant us the rights needed to store and display it to members of your organization."
+msgstr "You own the content you create. You grant us the rights needed to store and display it to members of your organization."
+
+msgid "You will lose access to its projects until someone invites you again."
+msgstr "You will lose access to its projects until someone invites you again."
+
+msgid "You will lose access to this organization and its projects right away."
+msgstr "You will lose access to this organization and its projects right away."
+
+msgid "Your content"
+msgstr "Your content"
+
+msgid "Your data is used only to provide the service. We do not sell it or share it with third parties except the providers needed to run the service."
+msgstr "Your data is used only to provide the service. We do not sell it or share it with third parties except the providers needed to run the service."
+
+msgid "Your email address is already verified."
+msgstr "Your email address is already verified."
+
+msgid "Your email address is confirmed. You are all set."
+msgstr "Your email address is confirmed. You are all set."
+
+msgid "Your email address is used to sign in."
+msgstr "Your email address is used to sign in."
+
+msgid "Your old codes no longer work. Store these somewhere safe."
+msgstr "Your old codes no longer work. Store these somewhere safe."
+
+msgid "Your password is incorrect."
+msgstr "Your password is incorrect."
+
+msgid "Your password is too long."
+msgstr "Your password is too long."
+
+msgid "Your password is too short."
+msgstr "Your password is too short."
+
+msgid "Your rights"
+msgstr "Your rights"
+
+msgid "Your session has expired. Sign in again."
+msgstr "Your session has expired. Sign in again."
+
+msgid "Your verification session expired. Sign in again."
+msgstr "Your verification session expired. Sign in again."

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "ui": "tui",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": ["dist/**"]
+    },
+    "check-types": {
+      "dependsOn": ["^check-types"]
+    },
+    "test": {
+      "dependsOn": ["^build"]
+    },
+    "test:e2e": {
+      "cache": false,
+      "dependsOn": ["^build"]
+    },
+    "dev": {
+      "dependsOn": ["db:start"],
+      "cache": false,
+      "persistent": true
+    },
+    "db:push": {
+      "dependsOn": ["db:start"],
+      "cache": false
+    },
+    "db:push:force": {
+      "dependsOn": ["db:start"],
+      "cache": false
+    },
+    "db:generate": {
+      "cache": false
+    },
+    "db:migrate": {
+      "cache": false
+    },
+    "db:studio": {
+      "cache": false,
+      "persistent": true
+    },
+    "db:start": {
+      "cache": false
+    },
+    "db:stop": {
+      "cache": false
+    },
+    "db:seed": {
+      "cache": false
+    }
+  },
+  "boundaries": {
+    "tags": {
+      "app-web": {
+        "dependencies": {
+          "deny": ["app-server"]
+        }
+      },
+      "app-server": {
+        "dependencies": {
+          "deny": ["app-web", "client-lib"]
+        }
+      },
+      "server-lib": {
+        "dependencies": {
+          "deny": ["app-web", "app-server", "client-lib"]
+        }
+      },
+      "client-lib": {
+        "dependencies": {
+          "deny": ["app-web", "app-server", "server-lib"]
+        }
+      },
+      "shared-lib": {
+        "dependencies": {
+          "deny": ["app-web", "app-server", "server-lib", "client-lib"]
+        }
+      }
+    }
+  }
+}

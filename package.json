@@ -1,0 +1,67 @@
+{
+  "name": "saas-starter",
+  "private": true,
+  "type": "module",
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "catalog": {
+      "dotenv": "^18.0.2",
+      "zod": "^4.1.13",
+      "typescript": "^7",
+      "@types/bun": "^1.4.2",
+      "hono": "^4.8.2",
+      "@orpc/server": "^1.13.14",
+      "@orpc/openapi": "^1.13.14",
+      "@orpc/zod": "^1.13.14",
+      "better-auth": "1.6.9",
+      "next-themes": "^0.4.6",
+      "@orpc/client": "^1.13.14",
+      "@types/react-dom": "^19.2.3",
+      "drizzle-orm": "^0.45.1",
+      "@types/pg": "^8.16.0"
+    }
+  },
+  "scripts": {
+    "build": "turbo build",
+    "check": "turbo check-types && ultracite check && turbo test && turbo boundaries && fallow dead-code && bun run i18n:check",
+    "check-boundaries": "turbo boundaries",
+    "check-types": "turbo check-types",
+    "db:generate": "turbo -F @saas-starter/db db:generate",
+    "db:migrate": "turbo -F @saas-starter/db db:migrate",
+    "db:seed": "turbo -F @saas-starter/db db:seed",
+    "db:start": "turbo -F @saas-starter/db db:start",
+    "db:stop": "turbo -F @saas-starter/db db:stop",
+    "db:studio": "turbo -F @saas-starter/db db:studio",
+    "dev": "turbo dev",
+    "fix": "ultracite fix",
+    "i18n:check": "bun run scripts/check-translations.ts",
+    "i18n:check:strict": "bun run scripts/check-translations.ts --extract",
+    "i18n:compile": "cd packages/i18n && bunx lingui compile --typescript --strict",
+    "i18n:extract": "cd packages/i18n && bunx lingui extract --clean",
+    "prepare": "lefthook install",
+    "setup": "bun run scripts/setup.ts",
+    "test": "turbo test",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.14",
+    "@playwright/cli": "^0.1.21",
+    "@playwright/test": "^1.63.0",
+    "@saas-starter/config": "workspace:*",
+    "@types/bun": "catalog:",
+    "@vitest/coverage-v8": "^5.0.1",
+    "dotenv": "catalog:",
+    "fallow": "^3.28.0",
+    "lefthook": "^2.1.14",
+    "tailwindcss": "^4.3.3",
+    "turbo": "^2.11.2",
+    "typescript": "catalog:",
+    "ultracite": "7.12.0",
+    "vitest": "^5.0.1"
+  },
+  "packageManager": "bun@1.3.13"
+}

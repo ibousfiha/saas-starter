@@ -1,0 +1,42 @@
+# Local development infrastructure only (Postgres, Redis, Mailpit).
+# Host ports can be overridden with SAAS_STARTER_POSTGRES_PORT, SAAS_STARTER_REDIS_PORT,
+# SAAS_STARTER_MAILPIT_UI_PORT and SAAS_STARTER_MAILPIT_SMTP_PORT.
+
+name: saas-starter
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: saas-starter-postgres
+    environment:
+      POSTGRES_DB: saas-starter
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "${SAAS_STARTER_POSTGRES_PORT:-5433}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: saas-starter-redis
+    ports:
+      - "${SAAS_STARTER_REDIS_PORT:-6380}:6379"
+    restart: unless-stopped
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: saas-starter-mailpit
+    ports:
+      - "${SAAS_STARTER_MAILPIT_UI_PORT:-8026}:8025"     # Web UI
+      - "${SAAS_STARTER_MAILPIT_SMTP_PORT:-1026}:1025" # SMTP
+
+volumes:
+  pgdata:

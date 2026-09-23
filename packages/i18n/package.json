@@ -1,0 +1,30 @@
+{
+  "name": "@saas-starter/i18n",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client.ts",
+    "./i18n-provider": "./src/i18n-provider.tsx"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "compile": "lingui compile --typescript --strict",
+    "extract": "lingui extract",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@lingui/core": "^6",
+    "@lingui/react": "^6"
+  },
+  "devDependencies": {
+    "@lingui/cli": "^6",
+    "@lingui/conf": "^6",
+    "@lingui/format-po": "^6",
+    "@types/react": "^19",
+    "react": "^19",
+    "typescript": "catalog:",
+    "vitest": "^5.0.1"
+  }
+}

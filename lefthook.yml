@@ -1,0 +1,30 @@
+# Git hooks are the quality gate (there is no CI).
+#   pre-commit  format + lint staged files (fast)
+#   commit-msg  conventional commits
+#   pre-push    full check + e2e   (skip e2e: LEFTHOOK_EXCLUDE=e2e git push)
+
+pre-commit:
+  jobs:
+    - name: ultracite
+      glob: "*.{js,jsx,ts,tsx,json,jsonc,css}"
+      run: bunx ultracite fix {staged_files}
+      stage_fixed: true
+
+commit-msg:
+  jobs:
+    - name: conventional-commit
+      run: |
+        head -n1 {1} | grep -qE '^((feat|fix|build|chore|ci|docs|perf|refactor|style|test|revert)(\([a-z0-9._/-]+\))?!?: .+|(Merge|Revert|fixup!|squash!) .+)' || {
+          echo "Commit message must follow Conventional Commits: type(scope)?: subject"
+          echo "  e.g. feat(auth): add two-factor sign-in"
+          exit 1
+        }
+
+pre-push:
+  piped: true
+  jobs:
+    - name: check
+      run: bun run check
+    - name: e2e
+      tags: [e2e]
+      run: bun run test:e2e

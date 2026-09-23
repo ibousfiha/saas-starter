@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/fallow-rs/fallow/main/schema.json",
+  "entry": [
+    "src/index.{ts,tsx,js,jsx}",
+    "src/main.{ts,tsx,js,jsx}"
+  ],
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ]
+  },
+  "duplicates": {
+    // Hide pair-only clones; focus on widespread copy-paste
+    // worth refactoring. Lower to 2 to report every duplicate pair.
+    "minOccurrences": 3
+  },
+  "rules": {
+    "unused-dependencies": "warn",
+    "unlisted-dependencies": "warn",
+    "unused-files": "warn"
+  },
+  "ignoreDependencies": [
+    "@lingui/conf",
+    "@lingui/format-po",
+    "@lingui/babel-plugin-lingui-macro",
+    "@saas-starter/db",
+    "date-fns"
+  ],
+  "ignorePatterns": [
+    "lingui.config.ts",
+    "packages/i18n/lingui.config.ts"
+  ],
+  // Lingui generates one catalog per locale; each exports `messages` by design.
+  "ignoreExports": [
+    {
+      "file": "packages/i18n/src/locales/de/messages.ts",
+      "exports": ["messages"]
+    },
+    {
+      "file": "packages/i18n/src/locales/en/messages.ts",
+      "exports": ["messages"]
+    },
+    {
+      "file": "packages/i18n/src/locales/fr/messages.ts",
+      "exports": ["messages"]
+    }
+  ]
+}

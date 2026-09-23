@@ -1,0 +1,37 @@
+{
+  "name": "@saas-starter/db",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "bun --env-file=../../apps/server/.env src/migrate.ts",
+    "db:push": "drizzle-kit push",
+    "db:push:force": "drizzle-kit push --force",
+    "db:seed": "bun --env-file=../../apps/server/.env src/seed.ts",
+    "db:start": "docker compose -f ../../docker-compose.yml up -d --wait postgres redis mailpit",
+    "db:stop": "docker compose -f ../../docker-compose.yml stop",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@saas-starter/env": "workspace:*",
+    "better-auth": "catalog:",
+    "drizzle-orm": "catalog:",
+    "pg": "^8.17.1",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@saas-starter/config": "workspace:*",
+    "@types/pg": "catalog:",
+    "dotenv": "catalog:",
+    "drizzle-kit": "^0.31.8",
+    "typescript": "catalog:"
+  }
+}

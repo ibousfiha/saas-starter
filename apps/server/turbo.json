@@ -1,0 +1,10 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "extends": ["//"],
+  "tags": ["app-server"],
+  // turbo boundaries also scans the gitignored dist/ bundle, which keeps one
+  // optional import from a bundled library.
+  "boundaries": {
+    "implicitDependencies": ["@opentelemetry/api"]
+  }
+}

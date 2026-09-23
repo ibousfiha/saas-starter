@@ -1,0 +1,28 @@
+{
+  "name": "@saas-starter/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@saas-starter/config": "workspace:*",
+    "@saas-starter/db": "workspace:*",
+    "@saas-starter/email": "workspace:*",
+    "@saas-starter/env": "workspace:*",
+    "better-auth": "catalog:",
+    "ioredis": "^5.10.1"
+  },
+  "devDependencies": {
+    "typescript": "catalog:",
+    "vitest": "*"
+  }
+}
