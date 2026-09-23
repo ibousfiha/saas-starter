@@ -9,7 +9,7 @@ export const ADMIN = {
 } as const;
 
 const ROOT = path.resolve(import.meta.dirname, "..");
-const MAILPIT_URL = process.env.MAILPIT_URL ?? "http://localhost:8026";
+const MAILPIT_URL = `http://localhost:${process.env.SAAS_STARTER_MAILPIT_UI_PORT ?? 8026}`;
 
 export function uniqueEmail(prefix: string): string {
 	return `${prefix}-${crypto.randomUUID().slice(0, 8)}@example.com`;

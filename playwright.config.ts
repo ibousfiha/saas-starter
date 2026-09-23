@@ -2,8 +2,12 @@ import path from "node:path";
 import { defineConfig, devices } from "@playwright/test";
 import dotenv from "dotenv";
 
+// The root .env holds the Docker port overrides (see docker-compose.yml).
 dotenv.config({
-	path: path.resolve(import.meta.dirname, "apps/server/.env"),
+	path: [
+		path.resolve(import.meta.dirname, "apps/server/.env"),
+		path.resolve(import.meta.dirname, ".env"),
+	],
 	quiet: true,
 });
 
